@@ -1,4 +1,4 @@
-package 数据结构.栈.code.implement_by_node;
+package 数据结构.栈.code.implement_by_array;
 
 public class test {
     public static void main(String[] args) {

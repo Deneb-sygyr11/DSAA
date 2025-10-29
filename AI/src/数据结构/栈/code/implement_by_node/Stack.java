@@ -55,7 +55,7 @@ public class Stack<E> {
     //toString
     public String toString() {
         if (isNull()) {
-            return null + "\n";
+            return null;
         }
         StringBuffer sb = new StringBuffer();
         Node<E> cur = head;
@@ -63,8 +63,6 @@ public class Stack<E> {
             sb.append(cur.next.val);
             if(cur.next.next!=null){
                 sb.append(' ');
-            }else {
-                sb.append("\n");
             }
             cur = cur.next;
         }
